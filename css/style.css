@@ -1,9 +1,51 @@
 header {
     padding: 20px 0;
+    background-color: #32004a;
+    color: white;
 }
 
 .announcement-bar {
+    background-color: #34CD37;
+}
+
+.welcome {
+    background-color: #2E2E2E;
+    color: white;
+}
+
+.install h3 {
+    color: white;
+}
+.install {
+    background-color: #020060;
+}
+.install-block {
+    width: 75%;
+    border: 1px solid gray;
     background-color: darkgray;
     color: white;
-    padding: 10px 0;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.install-block pre {
+    padding: 12px 0 0 12px;
+}
+
+.showcase {
+    background-color: #32004a;
+    color: white;
+}
+
+.newsletter-block {
+    background-color: #2E2E2E;
+    color: white; 
+}
+.newsletter-block input {
+    width: 70%;
+}
+
+.newsletter-block button {
+    background-color: #34CD37;
+    float: right;
 }
