@@ -4,12 +4,29 @@ header {
     color: white;
 }
 
+.navbar-dark .navbar-toggler {
+    color: #34CD37;
+    border: 1px solid #34CD37;
+}
+
+.btn {
+    background-color: #212529;
+    color: white;
+    width: 70%;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    border: 1px solid #34CD37;
+    color: #34CD37;
+}
 .announcement-bar {
     background-color: #34CD37;
+    padding: 10px;
 }
 
 .welcome {
-    background-color: #2E2E2E;
+    background-color: #212529;
     color: white;
 }
 
@@ -18,12 +35,13 @@ header {
 }
 .install {
     background-color: #020060;
+    padding: 10px;
 }
 .install-block {
-    width: 75%;
+    width: 100%;
     border: 1px solid gray;
-    background-color: darkgray;
-    color: white;
+    background-color: #212529;
+    color: #34CD37;
     border-radius: 4px;
     margin-top: 10px;
 }
@@ -37,15 +55,40 @@ header {
     color: white;
 }
 
+
+.showcase-code {
+    background-color: #212529;
+    color: white;
+    border: 1px solid #34CD37;
+    border-radius: 2px;
+    padding: 10px;
+    width: 50%;
+    float:left;
+}
+
 .newsletter-block {
-    background-color: #2E2E2E;
+    background-color: #212529;
     color: white; 
+    padding: 10px;
 }
 .newsletter-block input {
     width: 70%;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 5px;
 }
 
 .newsletter-block button {
     background-color: #34CD37;
-    float: right;
+    width:22%;
+    float: left;
+}
+
+/* div {
+    border: 1px solid red;
+} */
+
+.newsletter-block button:hover {
+    border: 1px solid #212529;
+    color: #212529;
 }
